@@ -1,0 +1,63 @@
+/* Overall chatbot container */
+.chatbot {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #3498db; /* Blue border */
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Container for chat messages */
+.chat-container {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Styling for individual chat messages */
+.chat-messages {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-messages li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eaf6ff; /* Lighter blue background */
+    border-radius: 10px;
+}
+
+/* Styling for user input section */
+.chat-input {
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #3498db; /* Blue border on top */
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.chat-input button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chat-input button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+
